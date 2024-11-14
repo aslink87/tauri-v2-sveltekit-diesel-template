@@ -1,0 +1,50 @@
+{
+  "name": "endure",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "tauri": "tauri",
+    "preinstall": "npx only-allow pnpm",
+    "lint": "prettier --check src && eslint .",
+    "format": "prettier --write src"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 18.18.0",
+    "yarn": "Please use PNPM instead of Yarn.",
+    "npm": "Please use PNPM instead of NPM.",
+    "pnpm": ">= 9.1.1"
+  },
+  "packageManager": "pnpm@9.1.1",
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.3",
+    "@tauri-apps/plugin-shell": "~2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@sveltejs/adapter-static": "^3.0.1",
+    "@sveltejs/kit": "^2.5.27",
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "@tauri-apps/cli": "^2.0.4",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.8.4",
+    "eslint": "^9.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-svelte": "^2.46.0",
+    "prettier": "3.3.3",
+    "prettier-plugin-svelte": "^3.2.7",
+    "svelte": "^5.0.0",
+    "svelte-check": "^4.0.0",
+    "tslib": "^2.4.1",
+    "typescript": "^5.5.0",
+    "typescript-eslint": "^8.12.2",
+    "vite": "^5.4.4"
+  }
+}
