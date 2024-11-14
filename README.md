@@ -31,3 +31,14 @@
 
 - all packages are updated at time of editing this readme, 14 Nov 2024
 - html/css/frontend files are as created at apps initialization, tune to taste
+- pnpm
+
+### Getting Started
+
+1. Pull the code
+2. install deps `pnpm i`
+3. connect to db by copying server/.env.example to server/.env with valid variables
+4. initialize database `cd server` then `diesel migration run`
+5. test valid database connection `cd server && cargo test`
+6. run the software in dev mode `pnpm run tauri dev`
+7. form submissions on FE are being logged, open inspection window to view console

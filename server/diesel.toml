@@ -7,4 +7,3 @@ custom_type_derives = ["diesel::query_builder::QueryId", "Clone"]
 
 [migrations_directory]
 dir = "migrations"
-# dir = "/home/adam/Development/endure/server/migrations"
