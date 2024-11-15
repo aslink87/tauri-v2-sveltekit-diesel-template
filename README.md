@@ -1,4 +1,4 @@
-# Tauri + SvelteKit + TypeScript + Diesel + postgres
+# Tauri v2 + SvelteKit + TypeScript + Diesel + postgres
 
 ## This template initializes the following
 
