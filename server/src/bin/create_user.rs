@@ -1,9 +1,9 @@
 use std::io::stdin;
 
-use endure::db::users::create_user_db;
+use template::db::users::create_user_db;
 
 fn main() {
-    let connection = &mut endure::configuration::establish_connection();
+    let connection = &mut template::configuration::establish_connection();
 
     let mut loginname = String::new();
     let mut password = String::new();

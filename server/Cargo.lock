@@ -769,21 +769,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "endure"
-version = "0.0.0"
-dependencies = [
- "argon2",
- "diesel",
- "dotenvy",
- "rand_core 0.6.4",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-shell",
-]
-
-[[package]]
 name = "equivalent"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3432,6 +3417,21 @@ checksum = "5993dc129e544393574288923d1ec447c857f3f644187f4fbf7d9a875fbfc4fb"
 dependencies = [
  "embed-resource",
  "toml 0.7.8",
+]
+
+[[package]]
+name = "template"
+version = "0.0.0"
+dependencies = [
+ "argon2",
+ "diesel",
+ "dotenvy",
+ "rand_core 0.6.4",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-shell",
 ]
 
 [[package]]

@@ -1,5 +1,5 @@
-use endure::commands::password;
 use std::io::stdin;
+use template::commands::password;
 
 fn main() {
     let mut password = String::new();

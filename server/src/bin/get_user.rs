@@ -1,9 +1,9 @@
 use diesel::prelude::*;
-use endure::{configuration::establish_connection, models::User};
 use std::io::stdin;
+use template::{configuration::establish_connection, models::User};
 
 fn main() {
-    use endure::schema::users::dsl::*;
+    use template::schema::users::dsl::*;
 
     let mut name = String::new();
     println!("Who would you like to search for?");

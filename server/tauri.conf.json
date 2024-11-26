@@ -16,10 +16,10 @@
       "icons/icon.ico"
     ]
   },
-  "productName": "endure",
-  "mainBinaryName": "endure",
+  "productName": "template",
+  "mainBinaryName": "template",
   "version": "0.0.0",
-  "identifier": "com.endure.dev",
+  "identifier": "com.template.dev",
   "plugins": {},
   "app": {
     "security": {
@@ -27,7 +27,7 @@
     },
     "windows": [
       {
-        "title": "endure",
+        "title": "template",
         "width": 800,
         "height": 600
       }

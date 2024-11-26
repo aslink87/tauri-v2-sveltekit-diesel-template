@@ -1,6 +1,6 @@
 use diesel::prelude::*;
-use endure::*;
 use std::env::args;
+use template::*;
 
 fn main() {
     use self::schema::posts::dsl::*;
@@ -8,7 +8,7 @@ fn main() {
     let target = args().nth(1).expect("Expected a target to match against");
     let pattern = format!("%{}%", target);
 
-    let connection = &mut endure::configuration::establish_connection();
+    let connection = &mut template::configuration::establish_connection();
     let num_deleted = diesel::delete(posts.filter(title.like(pattern)))
         .execute(connection)
         .expect("Error deleting posts");
